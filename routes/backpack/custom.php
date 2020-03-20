@@ -13,4 +13,5 @@ Route::group([
 ], function () { // custom admin routes
     Route::crud('epoch', 'EpochCrudController');
     Route::crud('day', 'DayCrudController');
+    Route::view('documentation', 'documentation');
 }); // this should be the absolute last line of this file
